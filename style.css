@@ -1,0 +1,97 @@
+body {
+    font-family: "Inder", sans-serif;
+    font-size: 16px;
+    color: black;
+    border-top:5px solid #be1e2f;
+    background-image: url(/img/grid.png);
+    margin: 0;
+}
+h1 {
+    font-size: 26px;
+    color: #aaa221;
+    margin: 0;
+}
+
+h2 {
+    font-size:20px;
+    color:#ab9eaa;
+    margin: 8px 0px 16px 0px;
+}
+
+a {
+    color:#aaaaaa;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#be1e2f;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+#wrapper {
+    width: 60%;
+    margin: 50px auto 50px auto;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    position: relative;
+}
+
+header{
+    overflow: hidden;
+}
+
+nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+nav ul {
+    padding: 0px;
+    line-height: 1rem;
+}
+nav li {
+    list-style:none;
+    border-color: #ccc;
+    border-right: 1px solid #eee;
+    padding: 0 25px;
+    display: inline;
+}
+header img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+}
+#content{
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width: 800px) {
+    #wrapper {
+        width: 80%;
+    }
+    section, aside {
+        width: 100%;
+    }
+    nav li {
+        padding: 0 15px;
+    }
+}
+section{
+    width:60%;
+    margin-right: 10%;
+    float:left;
+}
+aside{
+    width:30%;
+    float:right;
+}
+
+footer {
+    text-align:center;
+    color: #bbb;
+}
